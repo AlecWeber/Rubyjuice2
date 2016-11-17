@@ -1,5 +1,59 @@
 // ------ PLACEHOLDERS SASS ------
 %navContainer
 {
-    //
+    height: $navContainerHeight;
+
+    text-align: center;
+
+    // background-color: orange;
+    // ----------
+    #topHalf
+    {
+        height: $logoHeight;
+        // background-color: red;
+
+        background: url('../../imgs/logo.png') no-repeat;
+        background-position: center;
+        background-size: 22%;
+
+        #loginButton
+        {
+            font-size: 14px;
+            line-height: 35px;
+
+            float: right;
+
+            width: 130px;
+            height: 35px;
+            margin: 15px;
+
+            letter-spacing: 1.3px;
+
+            border-radius: 50px;
+            background-color: #ffd700;
+        }
+    }
+    // -----------
+    #bottomHalf
+    {
+        height: $listHeight;
+
+        // background-color: yellow;
+
+        // ----- NAV BUTTONS LIST -----
+        ul
+        {
+            li
+            {
+                line-height: $listHeight;
+
+                display: inline-block;
+
+                height: $listHeight;
+                padding: 0 10px;
+
+                background-color: #67bcfc;
+            }
+        }
+    }
 }

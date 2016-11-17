@@ -1,5 +1,10 @@
 // ------ LANDING PAGE SASS ------
 
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+
 #navContainer
 {
     @extend %navContainer;

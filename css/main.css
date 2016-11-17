@@ -45,3 +45,33 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+#navContainer {
+  height: 150px;
+  text-align: center; }
+  #navContainer #topHalf {
+    height: 100px;
+    background: url("../../imgs/logo.png") no-repeat;
+    background-position: center;
+    background-size: 22%; }
+    #navContainer #topHalf #loginButton {
+      font-size: 14px;
+      line-height: 35px;
+      float: right;
+      width: 130px;
+      height: 35px;
+      margin: 15px;
+      letter-spacing: 1.3px;
+      border-radius: 50px;
+      background-color: #ffd700; }
+  #navContainer #bottomHalf {
+    height: 50px; }
+    #navContainer #bottomHalf ul li {
+      line-height: 50px;
+      display: inline-block;
+      height: 50px;
+      padding: 0 10px;
+      background-color: #67bcfc; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
