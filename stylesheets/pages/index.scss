@@ -1,1 +1,6 @@
 // ------ LANDING PAGE SASS ------
+
+#navContainer
+{
+    @extend %navContainer;
+}
