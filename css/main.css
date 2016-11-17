@@ -47,7 +47,7 @@ table {
   border-spacing: 0; }
 
 #navContainer {
-  height: 150px;
+  height: 180px;
   text-align: center; }
   #navContainer #topHalf {
     height: 100px;
@@ -61,17 +61,30 @@ table {
       width: 130px;
       height: 35px;
       margin: 15px;
+      cursor: pointer;
+      transition: .33s;
       letter-spacing: 1.3px;
       border-radius: 50px;
       background-color: #ffd700; }
+      #navContainer #topHalf #loginButton:hover {
+        background-color: #ffec00; }
   #navContainer #bottomHalf {
-    height: 50px; }
-    #navContainer #bottomHalf ul li {
-      line-height: 50px;
-      display: inline-block;
-      height: 50px;
-      padding: 0 10px;
-      background-color: #67bcfc; }
+    height: 80px;
+    background-color: #f7f7f7; }
+    #navContainer #bottomHalf ul {
+      cursor: pointer; }
+      #navContainer #bottomHalf ul li {
+        line-height: 80px;
+        display: inline-block;
+        height: 80px;
+        margin: 0 50px;
+        padding: 0 20px;
+        transition: .33s;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border-bottom: 0 solid #ffd700; }
+        #navContainer #bottomHalf ul li:hover {
+          box-shadow: inset 0 -4px 0 0 #ffd700; }
 
 body {
   font-family: 'Roboto', sans-serif; }

@@ -27,10 +27,17 @@
             height: 35px;
             margin: 15px;
 
+            cursor: pointer;
+            transition: .33s;
             letter-spacing: 1.3px;
 
             border-radius: 50px;
             background-color: #ffd700;
+
+            &:hover
+            {
+                background-color: adjust-hue(#ffd700, 5);
+            }
         }
     }
     // -----------
@@ -38,11 +45,12 @@
     {
         height: $listHeight;
 
-        // background-color: yellow;
-
+        background-color: #f7f7f7;
         // ----- NAV BUTTONS LIST -----
         ul
         {
+            cursor: pointer;
+
             li
             {
                 line-height: $listHeight;
@@ -50,9 +58,21 @@
                 display: inline-block;
 
                 height: $listHeight;
-                padding: 0 10px;
+                margin: 0 50px;
+                padding: 0 20px;
 
-                background-color: #67bcfc;
+                transition: .33s;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+
+                border-bottom: 0 solid #ffd700;
+
+                &:hover
+                {
+                    // background-color: #67bcfc;
+                    // border-bottom: 3px solid #ffd700;
+                    box-shadow: inset 0 -4px 0 0 #ffd700;
+                }
             }
         }
     }
