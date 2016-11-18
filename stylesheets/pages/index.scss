@@ -22,6 +22,11 @@ body
     @extend %navContainer;
 }
 
+#homeSplash
+{
+    @extend %homeSplash;
+}
+
 #splashImage
 {
     @extend %splash;
@@ -40,6 +45,10 @@ h1
 #seasonalContainer
 {
     @extend %seasonal;
+    .seasonalItems
+    {
+        @extend %seasonalItems;
+    }
 }
 
 #footer

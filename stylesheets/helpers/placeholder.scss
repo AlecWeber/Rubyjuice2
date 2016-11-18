@@ -78,14 +78,25 @@
     }
 }
 
+%homeSplash
+{
+    width: 100%;
+    height: 400px;
+
+    background: url('../../imgs/homeSplash.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 %splash
 {
     width: 100%;
     height: 400px;
 
+    opacity: .75;
     background: url('../../imgs/splash.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: left;
+    background-size: 130%;
 
     #splashGradient
     {
@@ -94,7 +105,7 @@
         line-height: 200px;
 
         position: relative;
-        top: 100px;
+        // top: 10px;
 
         width: 50%;
         height: 50%;
@@ -104,12 +115,46 @@
 
         color: #eee;
         border-radius: 200px;
-        background: radial-gradient(rgba(30, 30, 30, .2), transparent 60%);
-        background-position: center;;
+        background: radial-gradient(rgba(30, 30, 30, .6), transparent 60%);
+        background-position: left;
     }
 }
 
 // -----
+
+
+// INDEX SEASONAL ITEMS
+
+%seasonalItems
+{
+    &:nth-child(1)
+    {
+        background: url('../../imgs/pearBasil.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(2)
+    {
+        background: url('../../imgs/pumpkinJuice.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(3)
+    {
+        background: url('../../imgs/blackberrySmoothie.png') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(4)
+    {
+        background: url('../../imgs/appleCarrotGinger.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
 
 %seasonal
 {
@@ -126,7 +171,7 @@
 
             width: 20vw;
             height: 250px;
-            margin: 0 5px;
+            margin: 5px;
 
             cursor: pointer;
             transition: .33s;
@@ -134,35 +179,7 @@
             border-radius: 2px;
             background-color: #999;
 
-            // -----NTH CHILD BACKGROUNDS
 
-            &:nth-child(1)
-            {
-                background: url('../../imgs/pearBasil.jpg') no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-
-            &:nth-child(2)
-            {
-                background: url('../../imgs/pumpkinJuice.jpg') no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-
-            &:nth-child(3)
-            {
-                background: url('../../imgs/blackberrySmoothie.png') no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
-
-            &:nth-child(4)
-            {
-                background: url('../../imgs/appleCarrotGinger.jpg') no-repeat;
-                background-position: center;
-                background-size: cover;
-            }
             // ----- SPAN STYLING
             & .blurDiv
             {
@@ -200,6 +217,63 @@
         }
     }
 }
+// MENU PAGE ITEMS
+
+%menuItems
+{
+    &:nth-child(1)
+    {
+        background: url('../../imgs/juice.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(2)
+    {
+        background: url('../../imgs/smoothies.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(3)
+    {
+        background: url('../../imgs/tea.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &:nth-child(4)
+    {
+        background: url('../../imgs/soup.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &:nth-child(5)
+    {
+        background: url('../../imgs/wraps.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &:nth-child(6)
+    {
+        background: url('../../imgs/salads.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &:nth-child(7)
+    {
+        background: url('../../imgs/berries.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    &:nth-child(8)
+    {
+        background: url('../../imgs/desserts.jpg') no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
 
 %footer
 {

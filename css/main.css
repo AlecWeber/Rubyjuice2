@@ -86,26 +86,53 @@ table {
         #navContainer #bottomHalf ul li:hover {
           box-shadow: inset 0 -4px 0 0 #ffd700; }
 
+#homeSplash {
+  width: 100%;
+  height: 400px;
+  background: url("../../imgs/homeSplash.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
 #splashImage {
   width: 100%;
   height: 400px;
+  opacity: .75;
   background: url("../../imgs/splash.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: left;
+  background-size: 130%; }
   #splashImage #splashGradient {
     font-size: 50px;
     font-weight: 600;
     line-height: 200px;
     position: relative;
-    top: 100px;
     width: 50%;
     height: 50%;
     margin: 0 auto;
     text-align: center;
     color: #eee;
     border-radius: 200px;
-    background: radial-gradient(rgba(30, 30, 30, 0.2), transparent 60%);
-    background-position: center; }
+    background: radial-gradient(rgba(30, 30, 30, 0.6), transparent 60%);
+    background-position: left; }
+
+#seasonalContainer .seasonalItems:nth-child(1) {
+  background: url("../../imgs/pearBasil.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .seasonalItems:nth-child(2) {
+  background: url("../../imgs/pumpkinJuice.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .seasonalItems:nth-child(3) {
+  background: url("../../imgs/blackberrySmoothie.png") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .seasonalItems:nth-child(4) {
+  background: url("../../imgs/appleCarrotGinger.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 #seasonalContainer {
   margin: 30px 0;
@@ -114,27 +141,11 @@ table {
     display: inline-block;
     width: 20vw;
     height: 250px;
-    margin: 0 5px;
+    margin: 5px;
     cursor: pointer;
     transition: .33s;
     border-radius: 2px;
     background-color: #999; }
-    #seasonalContainer #seasonal li:nth-child(1) {
-      background: url("../../imgs/pearBasil.jpg") no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #seasonalContainer #seasonal li:nth-child(2) {
-      background: url("../../imgs/pumpkinJuice.jpg") no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #seasonalContainer #seasonal li:nth-child(3) {
-      background: url("../../imgs/blackberrySmoothie.png") no-repeat;
-      background-position: center;
-      background-size: cover; }
-    #seasonalContainer #seasonal li:nth-child(4) {
-      background: url("../../imgs/appleCarrotGinger.jpg") no-repeat;
-      background-position: center;
-      background-size: cover; }
     #seasonalContainer #seasonal li .blurDiv {
       width: 100%;
       height: 40px;
@@ -153,6 +164,46 @@ table {
       background-color: RGBA(247, 247, 247, 0.4); }
     #seasonalContainer #seasonal li:hover {
       width: 21vw; }
+
+#seasonalContainer .menuItem:nth-child(1) {
+  background: url("../../imgs/juice.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(2) {
+  background: url("../../imgs/smoothies.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(3) {
+  background: url("../../imgs/tea.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(4) {
+  background: url("../../imgs/soup.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(5) {
+  background: url("../../imgs/wraps.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(6) {
+  background: url("../../imgs/salads.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(7) {
+  background: url("../../imgs/berries.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+#seasonalContainer .menuItem:nth-child(8) {
+  background: url("../../imgs/desserts.jpg") no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 #footer {
   width: 100%;

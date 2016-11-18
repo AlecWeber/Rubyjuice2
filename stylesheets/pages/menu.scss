@@ -28,6 +28,10 @@ h1
 #seasonalContainer
 {
     @extend %seasonal;
+    .menuItem
+    {
+        @extend %menuItems;
+    }
 }
 
 #footer
