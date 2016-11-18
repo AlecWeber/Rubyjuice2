@@ -87,3 +87,96 @@
     background-position: center;
     background-size: cover;
 }
+
+// -----
+
+%seasonal
+{
+    margin: 30px 0;
+    // display: block;
+
+    text-align: center;
+
+    #seasonal
+    {
+        li
+        {
+            display: inline-block;
+
+            width: 20vw;
+            height: 250px;
+            margin: 0 5px;
+
+            cursor: pointer;
+            transition: .33s;
+
+            border-radius: 2px;
+            background-color: #999;
+
+            // -----NTH CHILD BACKGROUNDS
+
+            &:nth-child(1)
+            {
+                background: url('../../imgs/pearBasil.jpg') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            &:nth-child(2)
+            {
+                background: url('../../imgs/pumpkinJuice.jpg') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            &:nth-child(3)
+            {
+                background: url('../../imgs/blackberrySmoothie.png') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            &:nth-child(4)
+            {
+                background: url('../../imgs/appleCarrotGinger.jpg') no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            // ----- SPAN STYLING
+            & .blurDiv
+            {
+                // display: none;
+                width: 100%;
+                height: 40px;
+
+                background-color: RGBA(247, 247, 247, .4);
+
+                filter: blur(5px);
+            }
+            & .textDiv
+            {
+                font-size: 16px;
+                line-height: 40px;
+
+                position: relative;
+                bottom: 40px;
+                left: 0;
+                // display: none;
+
+                width: 100%;
+                height: 40px;
+
+                letter-spacing: 1px;
+
+                color: #313131;
+                background-color: RGBA(247, 247, 247, .4);
+            }
+
+            &:hover
+            {
+                width: 21vw;
+                height: 260px;
+            }
+        }
+    }
+}
