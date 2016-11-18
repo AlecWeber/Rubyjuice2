@@ -196,11 +196,6 @@ table {
   background-size: cover; }
 
 #seasonalContainer .menuItem:nth-child(7) {
-  background: url("../../imgs/berries.jpg") no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-#seasonalContainer .menuItem:nth-child(8) {
   background: url("../../imgs/desserts.jpg") no-repeat;
   background-position: center;
   background-size: cover; }
